@@ -19,8 +19,7 @@ body {
 }
 
 footer {
-  height: 50px;
-  background-color: #8801fe;
+  text-align: center;
 }
 
 h2 {
@@ -138,6 +137,11 @@ aside {
 
 .lead-img {
   height: 200px;
+}
+
+.heart {
+  color: red;
+  font-size: 1.5rem;
 }
 
 /* ID */
