@@ -1,0 +1,101 @@
+/* Import Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap");
+
+/* Reset */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global */
+
+body {
+  font-family: "Opens sans", sans-serif;
+}
+
+footer {
+  height: 50px;
+  background-color: #8801fe;
+}
+
+p,
+li {
+  color: #7d7d7d;
+}
+
+nav li {
+  margin-right: 8px;
+  display: inline;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+/* Classes */
+
+.container {
+  max-width: 1000px;
+  min-width: 500px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.jumbotron {
+  height: 400px;
+  background-color: #e1d67a;
+}
+
+.content {
+  background-color: #0088fc;
+}
+
+.bg-lightblue {
+  background-color: #abcfe7;
+}
+
+.content .header {
+  height: 100px;
+  width: 100%;
+}
+
+.content aside {
+  width: 25%;
+  float: left;
+}
+
+.content .center {
+  width: calc(50% - 24px);
+  float: left;
+}
+
+.h500 {
+  height: 500px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mr-12 {
+  margin-right: 12px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  width: 150px;
+  padding-right: 20px;
+  border-right: 1px solid #eeeeee;
+}
